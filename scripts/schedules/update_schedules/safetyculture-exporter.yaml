@@ -1,4 +1,4 @@
-access_token: "4572e4ddaa8c3e997cc8a1ce33fce5dd2196875409345dfc0ecc1296f69511f3"
+access_token: "api token"
 api:
     proxy_url: ""
     sheqsy_url: https://app.sheqsy.com
@@ -9,7 +9,7 @@ api:
 csv:
     max_rows_per_file: 1000000
 db:
-    connection_string: "postgresql://postgres:password@localhost:5432/finalcheck"
+    connection_string: "postgresql://postgres:password@localhost:5432/dbname"
     dialect: postgres
     auto_migrate_disabled: false
 export:
