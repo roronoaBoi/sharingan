@@ -1,0 +1,30 @@
+df
+{
+  "metadata": {
+    "next_page": null,
+    "next_page_token": null,
+    "remaining_records": 0
+  },
+  "data": [
+    {
+      "id": "scheduleitem_ef548176d156430793b75daf1e98fba1",
+      "description": "ro example db",
+      "recurrence": "INTERVAL=4;FREQ=WEEKLY;DTSTART=20250101T090000Z;BYDAY=TU",
+      "duration": "P10DT8H",
+      "modified_at": "2025-01-08T20:11:16.972Z",
+      "organisation_id": "role_14a0ea6771a24a1da62ecf0379c6752b",
+      "from_date": "2025-01-01T15:00:00.000Z",
+      "to_date": null,
+      "start_time_hour": 9,
+      "start_time_minute": 0,
+      "all_must_complete": false,
+      "status": "ACTIVE",
+      "timezone": "Etc/UTC",
+      "can_late_submit": false,
+      "site_id": "location_3b11619cd73d45f6b667d36a62013391",
+      "template_id": "template_c2b2cef682204d4791c8d54e918ff99b",
+      "creator_user_id": "user_1d1afa7876164734ab5aa5d6624f20f5",
+      "asset_id": null
+    }
+  ]
+}

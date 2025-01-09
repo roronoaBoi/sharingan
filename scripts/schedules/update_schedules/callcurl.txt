@@ -1,0 +1,33 @@
+usecase: just update the end date. I am assuming the 'to_date'
+
+curl --request PUT \
+     --url https://api.safetyculture.io/schedules/v1/schedule_items/scheduleitem_ef548176d156430793b75daf1e98fba1 \
+     --header 'accept: application/json' \
+     --header 'authorization: Bearer 5a0ed9950fda1ba92960a0171bb2bc70ef0449ff2c896aaf86d1607cb36ce5a4' \
+     --header 'content-type: application/json' \
+     --data '
+{
+  "must_complete": "ONE",
+  "can_late_submit": false,
+  "start_time": {
+    "hour": "9",
+    "minute": "0"
+  },   
+  "document": {
+    "type": "TEMPLATE",
+    "id": "template_c2b2cef682204d4791c8d54e918ff99b"
+  },
+  "status": "ACTIVE",
+  "description": "ro example db",
+  "recurrence": "INTERVAL=4;FREQ=WEEKLY;DTSTART=20240903T090000Z;BYDAY=TU",
+  "duration": "P13DT8H",
+  "from_date": "2024-09-03T15:00:00.000Z",
+  "assignees": [
+    {
+      "type": "USER",
+      "id": "465fba5b-c425-4bd5-a910-3ec2bf595357"
+    }
+  ],
+  "location_id": "location_3b11619cd73d45f6b667d36a62013391"
+}
+'
